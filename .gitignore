@@ -1,0 +1,26 @@
+*.log
+*.swp
+
+# Dependency directory
+node_modules
+
+# Vscode project files
+.vscode
+
+# Ignore app logs files
+logs/*
+
+# Ignore built ts files
+dist/**/*
+
+# ignore package-lock.json
+package-lock.json
+
+# ignore yarn.lock
+yarn.lock
+
+# Coverage reports
+coverage
+
+# API keys and secrets
+.env
